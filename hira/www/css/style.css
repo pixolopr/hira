@@ -1,1 +1,406 @@
-/* Empty. Add your own CSS if you like */
+@font-face {
+    font-family: copper;
+    src: url(COPRGTL.TTF);
+}
+
+@font-face {
+    font-family: micros;
+    src: url(micross.ttf);
+}
+
+@font-face {
+    font-family: gujufont;
+    src: url(gujufont.TTF);
+}
+
+@font-face {
+    font-family: hindifont;
+    src: url(hindifont.TTF);
+}
+
+
+/*MENU*/
+
+.menuimagediv {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: white;
+    border-radius: 13px;
+}
+
+.menuimage {
+    width: 75%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.menutitle {
+    color: white;
+    text-align: center;
+}
+
+.menubutton1 {
+    display: inline-block;
+    margin-top: 2vh;
+    width: 10vh;
+    height: 10vh;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.menubutton2 {
+    margin-top: 2vh;
+    width: 10vh;
+    height: 10vh;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.buttonimage {
+    width: 80%;
+    margin-top: 8%;
+}
+
+
+/*HOME PAGE*/
+
+.headnewsdiv {
+    margin-top: 1vh;
+    height: 25vh;
+    overflow: hidden;
+}
+
+.centercrop {}
+
+.headnewsheadline {
+    margin-top: 2vh;
+}
+
+.headline {
+    font-size: 3vh !important;
+}
+
+.otherheadline {
+    font-size: 2.8vh !important;
+}
+
+.othernewsheadline {
+    width: 100%;
+    padding: 0px !important;
+}
+
+.categorynamediv {
+    height: 30px;
+    position: absolute;
+    width: auto;
+    padding: 5px;
+    margin-top: -15px;
+    margin-left: -10px;
+}
+
+.categorystyle {
+    margin-left: -3px;
+    z-index: -1;
+    position: absolute;
+    background-color: #840B0B;
+    margin-top: -10px;
+    width: 12px;
+    height: 30px;
+    transform: rotate(29deg);
+}
+
+
+/*CATEGORY PAGE*/
+
+.cattitle {
+    height: 7vh;
+    text-align: center;
+    margin-top: -2vh;
+}
+
+.cattitle2 {
+    height: 9vh;
+    text-align: center;
+    margin-top: -3vh;
+}
+
+.cattitletext {
+    padding: 1.5vh;
+}
+
+
+/*FULL ARTICLE*/
+
+.bookmarkicon {
+    font-size: 28px !important;
+    margin-right: 8px;
+    margin-top: 4px;
+}
+
+.datediv {
+    padding: 1vh;
+    display: flex;
+    font-size: 15px;
+}
+
+.clock {
+    color: #37307d;
+}
+
+.datetext {
+    padding-left: 10px;
+}
+
+.fullarticleheadline {
+    margin-top: -15px;
+    padding: 10px;
+}
+
+.fullarticletext {
+    margin-top: -10px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.fullarticletextstyle {
+    font-family: micros;
+    font-size: 1.1em;
+    line-height: 1.33em;
+}
+
+.commentbox {
+    width: 100%;
+    padding: 10px;
+    background-color: #CAD3D6;
+    border-radius: 10px;
+}
+
+.commentarrow {
+    width: 15px;
+    height: 15px;
+    background-color: #CAD3D6;
+    position: absolute;
+    transform: rotate(45deg);
+    margin-top: -4px;
+    margin-left: 9px;
+    z-index: -1;
+}
+
+.commentdate {
+    font-size: 0.7em;
+    float: right;
+    margin-right: 10px;
+}
+
+.commentdiv {
+    margin-top: -25px;
+}
+
+.commenttextarea {
+    width: 100%;
+    background-color: beige;
+    height: 14vh;
+}
+
+.postbutton {
+    width: 100%;
+    font-size: smaller;
+}
+
+
+/*EPAPER*/
+
+.epaperlist {
+    height: 33vh !important;
+}
+
+.epapertitle {
+    text-align: center;
+    line-height: 0.6;
+    padding-top: 10%;
+    font-weight: 600;
+}
+
+
+/*PROFILE*/
+
+.profile img {
+    width: 50%;
+}
+
+.profile h1 {
+    color: #828587 !important;
+    margin: 0px !important;
+}
+
+.profilebutton {
+    width: 75% !important;
+    color: #ffffff !important;
+    text-align: center !important;
+    border: 0px !important;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+/*SIGNUP*/
+
+.signupbutton {
+    width: 75% !important;
+    border: 0px !important;
+}
+
+
+/*CATEGORY*/
+
+.morenews {
+    width: 100%;
+    background-color: rgba(239, 229, 229, 0.49) !important;
+    height: 46px;
+    padding: 3%;
+}
+
+
+/*REUSABLE*/
+
+.redbgcolor {
+    background-color: #ee0808 !important;
+    color: white !important;
+}
+
+.bluebgcolor {
+    background-color: #37307D !important;
+    color: white !important;
+}
+
+.redcolor {
+    color: #ee0808 !important;
+}
+
+.bluecolor {
+    color: #37307D !important;
+}
+
+.darkblackcolor {
+    color: #3b3737 !important;
+}
+
+.lightblackcolor {
+    color: #828587 !important;
+}
+
+.copperfont {
+    font-family: copper;
+}
+
+.microsfont {
+    font-family: micros;
+}
+
+.gujufont {
+    font-family: gujufont !important;
+}
+
+.hindifont {
+    font-family: hindifont !important;
+}
+
+.noborder {
+    border: 0px;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.webkittextcenter {
+    text-align: -webkit-center;
+}
+
+.row-wrap {
+    flex-wrap: wrap;
+}
+
+.cropcenterdiv {
+    height: 25vh;
+    overflow: hidden;
+    text-align: center;
+}
+
+.cropcenterimgtall {
+    height: 100%;
+    width: auto !important;
+    margin-left: 50%;
+    transform: translateX(-50%)
+}
+
+.toperrormessagediv {
+    padding: 25%;
+    text-align: center;
+    font-size: small;
+}
+
+.bottomofpage {
+    margin-top: 95vh;
+}
+
+#id1:hover ~ #rightDiv {
+    background: red
+}
+
+.blog-button {
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 37%;
+    border-color: #6b46e5;
+    background-color: #EE0808;
+}
+
+.transparent {
+    background: transparent !important;
+}
+
+.image-modal {
+    width: 100% !important;
+    height: 100%;
+    top: 0 !important;
+    left: 0 !important;
+}
+
+.fullscreen-image {
+    max-width: 100%;
+    max-height: 100%;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+}
+
+.modal {
+    top: auto !important;
+}
+
+
+/* Fix modal backdrop for smaller devices */
+
+@media (max-width: 679px) {
+    .active .modal-backdrop-bg {
+        opacity: .5;
+    }
+    .modal-backdrop-bg {
+        -webkit-transition: opacity 300ms ease-in-out;
+        transition: opacity 300ms ease-in-out;
+        background-color: #000;
+        opacity: 0;
+    }
+}
